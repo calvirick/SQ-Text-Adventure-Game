@@ -1,0 +1,42 @@
+* {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+  background-color: #3a3a3a;
+}
+
+#container {
+  border: solid white;
+  background-color: #020202;
+}
+
+#title_window {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: relative;
+  background-color: #155e63;
+}
+
+#text_body {
+  background-color: #4e4444;
+}
+
+h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  color: #0fe73e;
+  line-height: 50px;
+  font-size: 50px;
+}
+
+p {
+  margin-left: 3px;
+  color: #0fe73e;
+}
+/*# sourceMappingURL=mainstyles.css.map */

@@ -1,0 +1,44 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-color: rgb(58, 58, 58);
+}
+
+#container {
+    border: solid white;
+    background-color: rgb(2, 2, 2);
+}
+
+#title_window {
+    box-sizing: border-box;
+    position: relative;
+    background-color: rgb(21, 94, 99);
+
+
+}
+
+#text_body {
+
+    background-color: rgb(78, 68, 68);
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: rgb(15, 231, 62);
+    line-height: 50px;
+    font-size: 50px;
+}
+
+p {
+    margin-left: 3px;
+    color: rgb(15, 231, 62);
+}
+
+//cursor where text will type out. 
+//text box for entering commands. 
+//instructions
+//title logo up top. 
