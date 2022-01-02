@@ -4,41 +4,42 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- <link rel="stylesheet" href="/dist/css/mainstyles.css" /> -->
-    <link rel="stylesheet" href="https://unpkg.com/xp.css" />
+    <link rel="stylesheet" href="/dist/css/mainstyles.css" />
+    <!-- <link rel="stylesheet" href="https://unpkg.com/xp.css" /> -->
     <title>Rocket Island v0.9</title>
   </head>
   <body>
     <div class="window">
       <div class="title-bar">
         <div class="title-bar-text">Rocket Island Text Adenture!! 🚀</div>
+        <hr />
         <div class="title-bar-controls">
           <!-- <button aria-label="Minimize"></button>
           <button aria-label="Maximize"></button> -->
-          <button aria-label="Close"></button>
         </div>
       </div>
-      <div class="window-body">
-        <pre>"Rocket Island: A Text-Adventure!"
+      <div id="text-body">
+        <pre class="text">"Rocket Island: A Text-Adventure!"
           AllyThornSoftware®; Modular Windows  
-          &#10094;C&#10095; Copyright **Lewis Thornton 1999-2001.
-      <br />FILE LOCATION: - C:&#92;WINDOWS&#92;SYSTTEM32\APPROAMING\AZULEEXPANSION>
+          &#10094;C&#10095; Copyright **Lewis Thornton 1999-2001.**
+      <br />FILE LOCATION: - C:&#92;WINDOWS&#92;SYSTEM32\APPROAMING\AZULEEXPANSION>
       <br />*****WELCOME TO ROCKET ISLAND!***** 
        A Text Adventure!
 <br />"Rocket Island" is a registered tradmark by LewisGames, Inc.
 Rev 0.9 / Serial Number  9112001 
       <br />BEGIN:
       <br />"The House"
-      <br />Before you sits a lonely house. 
-&#10095;|
+      <br />Before you, a few yards away, sits a lonely two story house with a centered entrance 
+      door shut close, and two side wing windows in black. 
+<br />
+<div class="user">>>> </div> 
+&#10095;|  <input id="text" type="text" />
+<br>
+<button type="button">Submit</button> 
     </pre>
       </div>
     </div>
-
-    <br />
-    <div class="field-row-stacked" style="width: 500px">
-      <label for="text22">Write your Action:</label>
-      <input id="text22" type="text" />
+      
     </div>
   </body>
 </html>
